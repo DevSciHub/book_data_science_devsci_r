@@ -26,6 +26,9 @@ book:
     - aula_07.qmd
     #- references.qmd
 
+doi: "10.5281/zenodo.17680357"
+url: "https://doi.org/10.5281/zenodo.17680357"
+
 bibliography: references.bib
 
 format:
