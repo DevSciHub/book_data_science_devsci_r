@@ -1,0 +1,39 @@
+project:
+  type: book
+
+book:
+  page-footer: "![](img/Logo_Grande_DevSci_Sem_Fundo.png){width=15%} <br> DevSci Space <br>"
+  title: "Introdução à Linguagem R"
+  subtitle: "Um guia prático" 
+  author: "Bruno Oliveira"
+  favicon: img/Logo_Grande_DevSci_Sem_Fundo.png
+  date: "2025-11-22"
+  sidebar: 
+    background: "#F0F6FF"
+    logo: img/capa_introducao_a_r.png
+    search: true
+  image: img/capa_introducao_a_r.png
+  chapters:
+    - index.qmd
+    #- summary.qmd
+    #- intro.qmd
+    - aula_01.qmd
+    - aula_02.qmd
+    - aula_03.qmd
+    - aula_04.qmd
+    - aula_05.qmd
+    - aula_06.qmd
+    - aula_07.qmd
+    #- references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      light: minty
+    code-fold: false
+    backgroundcolor: "#F0F6FF"
+
+editor: visual
+

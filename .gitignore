@@ -1,0 +1,81 @@
+############################
+# Arquivos e pastas do R
+############################
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+.Rapp.history
+
+# Logs
+*.Rout
+*.Rout.save
+
+# Pacotes compilados
+*.o
+*.so
+*.dll
+
+############################
+# Projeto RStudio
+############################
+*.Rproj
+!.Rproj              # permite manter o arquivo do projeto principal se quiser
+
+############################
+# Quarto / Markdown
+############################
+.quarto/
+*.qmd
+*.quarto_ipynb
+*.pdf
+*_cache/
+_cache/
+*.log
+
+############################
+# Python
+############################
+__pycache__/
+*.pyc
+
+############################
+# Dados (não versionar dados brutos)
+############################
+data_raw/
+*.csv
+*.xlsx
+*.xls
+*.rds
+*.sav
+*.dta
+*.json
+*.parquet
+
+############################
+# Mídia
+############################
+*.mp4
+*.mov
+*.avi
+*.png
+*.jpg
+*.jpeg
+*.svg
+
+img/
+
+############################
+# Código e notebooks
+############################
+*.ipynb
+*.txt
+
+############################
+# Outras pastas comuns
+############################
+.R/
+.Rproj.user/
+.img/
+
+/.quarto/
